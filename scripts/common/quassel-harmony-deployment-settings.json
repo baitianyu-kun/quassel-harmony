@@ -1,0 +1,32 @@
+{
+    "application-binary": "/home/baitianyu/makeQuassel/build/build-quassel-ohos/libquasselclient.so",
+    "harmonyos-app-name": "quassel",
+    "harmonyos-app-bundle-name": "com.ohos.quassel",
+    "harmonyos-target-arch": ["arm64-v8a"],
+    "sdk-root": "/home/baitianyu/software/command-line-tools/sdk/default/openharmony",
+    "ndk-root": "/home/baitianyu/software/command-line-tools/sdk/default/openharmony/native",
+    "qtLibsDirectory": "/home/baitianyu/makeQuassel/build/build-qt-ohos-install/lib",
+    "qtPluginsDirectory": "/home/baitianyu/makeQuassel/build/build-qt-ohos-install/plugins",
+    "qtQmlDirectory": "/home/baitianyu/makeQuassel/build/build-qt-ohos-install/qml",
+    "qtLibExecsDirectory": "/home/baitianyu/makeQuassel/build/build-qt-host-install/libexec",
+    "qtHostDirectory": "/home/baitianyu/makeQuassel/build/build-qt-host-install",
+    "harmonyos-package-source-directory": "/home/baitianyu/makeQuassel/build/build-qt-ohos-install/src/harmonyos/templates",
+    "extra-libs-dirs": [
+        "/home/baitianyu/makeQuassel/additional-packages/lib",
+        "/home/baitianyu/makeQuassel/build/build-quassel-ohos/lib"
+    ],
+    "permissions": [
+        { "name": "ohos.permission.INTERNET" },
+        { "name": "ohos.permission.GET_NETWORK_INFO" },
+        { "name": "ohos.permission.KEEP_BACKGROUND_RUNNING" }
+    ],
+    "project-libraries": [
+        "/home/baitianyu/makeQuassel/build/build-qt-ohos-install/lib/libQt6Core.so",
+        "/home/baitianyu/makeQuassel/build/build-qt-ohos-install/lib/libQt6Gui.so",
+        "/home/baitianyu/makeQuassel/build/build-qt-ohos-install/lib/libQt6Widgets.so",
+        "/home/baitianyu/makeQuassel/build/build-qt-ohos-install/lib/libQt6Network.so",
+        "/home/baitianyu/makeQuassel/build/build-qt-ohos-install/lib/libQt6Sql.so",
+        "/home/baitianyu/makeQuassel/build/build-qt-ohos-install/lib/libQt6Core5Compat.so",
+        "/home/baitianyu/makeQuassel/build/build-qt-ohos-install/lib/libQt6DBus.so"
+    ]
+}

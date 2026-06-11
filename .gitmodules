@@ -1,0 +1,3 @@
+[submodule "third_party/quassel"]
+	path = third_party/quassel
+	url = https://github.com/baitianyu-kun/quassel.git
